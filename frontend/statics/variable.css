@@ -1,0 +1,61 @@
+:root{
+    --cor-dark: #121212;
+    --cor-white: #ededed;
+    --cor-primary: #3a5eff;
+    --cor-secondary: #6ec530;
+    --cor-alert: #fb3d09;
+    --cor-sucess: #ebc804;
+}
+
+.container{
+    width: 80dvw;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-lg{
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    padding: 5px 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border:none;
+    text-decoration: none;
+}
+
+.primary{
+    background: var(--cor-primary);
+    color: var(--cor-white);
+    transition: 0.2s;
+}
+.primary:hover{
+    opacity: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.455);
+}
+
+.secondary{
+    background: var(--cor-secondary);
+    color: var(--cor-white);
+     transition: 0.2s;
+}
+.secondary:hover{
+    opacity: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.455);
+}
+
+.alert{
+    background: var(--cor-alert);
+    color: var(--cor-white);
+     transition: 0.2s;
+}
+.alert:hover{
+    opacity: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.455);
+}
+

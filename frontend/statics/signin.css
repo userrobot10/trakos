@@ -1,0 +1,122 @@
+header{
+    width: 100dvw;
+    padding: 10px;
+    position: fixed;
+}
+
+header a{
+    color: var(--cor-dark);
+    font-size: 24px;
+    transition: 0.5s;
+    margin: 10px 10px;
+    
+}
+header a:hover{
+    font-size: 32px;
+    color: var(--cor-primary);
+    margin: 2px 2px;
+}
+
+main{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+}
+
+.form{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.login-icon{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(2 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.login-icon .title-icon{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.login-icon .google{
+    margin: 10px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    color: var(--cor-dark);
+    font-size: 24px;
+    transition: 0.2s;
+}
+.login-icon .google:hover{
+    color: var(--cor-alert);
+    font-size: 32px;
+}
+
+.login-icon .facebook{
+    margin: 10px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    color: var(--cor-dark);
+    font-size: 24px;
+    transition: 0.2s;
+}
+.login-icon .facebook:hover{
+    color: var(--cor-primary);
+    font-size: 32px;
+}
+
+.login-icon .apple{
+    margin: 10px;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    color: var(--cor-dark);
+    font-size: 24px;
+    transition: 0.2s;
+}
+.login-icon .apple:hover{
+    color: var(--cor-dark);
+    font-size: 32px;
+    opacity: 80%;
+}
+
+label, input{
+    margin: 5px 0px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid var(--cor-dark);
+}
+
+p{
+    margin: 5px 0px;  
+    text-align: center;
+}
+
+p > a{
+    color: var(--cor-dark);
+    transition: 0.2s;
+}
+p > a:hover{
+    color: var(--cor-alert);
+    opacity: 80%;
+}
